@@ -1,13 +1,11 @@
 <div align="center">
 
-<img src="assets/cosmic-hero-v2.svg" width="100%" alt="Igor Nayran — Software Developer & Builder" />
+![Cosmic profile banner](assets/cosmic-banner.svg)
 
-<br/>
+### Software Developer & Builder
 
-**Sistemas comerciais • ERP • PDV • Mobile • APIs • Fiscal • Automação**  
-*Business software • ERP • POS • Mobile • APIs • Fiscal • Automation*
-
-<br/>
+**Sistemas comerciais • ERP • PDV • Mobile • APIs • Automação**  
+*Business software • ERP • POS • Mobile • APIs • Automation*
 
 ![Delphi](https://img.shields.io/badge/Delphi-E62431?style=flat-square&logo=delphi&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
@@ -20,42 +18,37 @@
 
 </div>
 
-<img src="assets/section-divider.svg" width="100%" alt="section divider" />
+---
 
 ## Sobre mim / About me
 
-Desenvolvedor focado em **software que resolve problemas reais de operação** — sistemas comerciais, PDV, ERP, mobile, integrações, APIs, automação e rotinas fiscais.
+🇧🇷 Desenvolvedor focado em criar **software que resolve problemas reais de operação**. Trabalho principalmente com sistemas comerciais, PDV, ERP, aplicações mobile, integrações, APIs e automação de processos.
 
-*Developer focused on software that solves real operational problems — business systems, POS, ERP, mobile, integrations, APIs, automation and fiscal workflows.*
+🇺🇸 Developer focused on building **software that solves real operational problems**, especially business systems, POS, ERP, mobile applications, integrations, APIs and process automation.
 
-<img src="assets/pillars.svg" width="100%" alt="Build Connect Operate" />
+Gosto de transformar processos complexos em produtos mais simples, seguros e utilizáveis no dia a dia.  
+*I enjoy turning complex workflows into simpler, safer and more practical products.*
 
-<img src="assets/section-divider.svg" width="100%" alt="section divider" />
+---
 
 ## Projetos em destaque / Featured projects
 
-<div align="center">
-<a href="https://github.com/IgorNayran/MenuFaz-Showcase"><img src="assets/cards/menufaz.svg" width="49%" alt="MenuFaz" /></a>
-<a href="https://github.com/IgorNayran/FichaMovel-Showcase"><img src="assets/cards/fichamovel.svg" width="49%" alt="FichaMovel" /></a>
-<br/>
-<a href="https://github.com/IgorNayran/BarberShop-Showcase"><img src="assets/cards/barbershop.svg" width="49%" alt="BarberShop" /></a>
-<a href="https://github.com/IgorNayran/RastreadorNotas-Showcase"><img src="assets/cards/rastreadornotas.svg" width="49%" alt="RastreadorNotas" /></a>
-<br/>
-<a href="https://github.com/IgorNayran/ConferirArquivo-Showcase"><img src="assets/cards/conferirarquivo.svg" width="49%" alt="ConferirArquivo" /></a>
-</div>
+| Projeto | O que estou construindo | Stack principal |
+|---|---|---|
+| **[MenuFaz](https://github.com/IgorNayran/MenuFaz-Showcase)** | Plataforma comercial para delivery, balcão, mesas, comandas, relatórios, financeiro, impressão e integrações operacionais. | React, Vite, JavaScript, Node.js, Express, PostgreSQL, Docker, Caddy |
+| **[FichaMovel](https://github.com/IgorNayran/FichaMovel-Showcase)** | Aplicativo Android/POS para operação em dispositivos móveis e integração com o ecossistema MenuFaz, pagamentos e impressão. | Flutter, Dart, Android, Kotlin, Hive, AIDL |
+| **[BarberShop](https://github.com/IgorNayran/BarberShop-Showcase)** | Plataforma web/PWA para barbearias, com experiência mobile, agendamentos, pagamentos e assinaturas. | Next.js, React, TypeScript, Tailwind CSS, PostgreSQL, Prisma, NextAuth |
+| **[RastreadorNotas](https://github.com/IgorNayran/RastreadorNotas-Showcase)** | Aplicação desktop voltada a rotinas fiscais, NF-e, CT-e, XML, estoque e custos. | Delphi, Object Pascal, VCL, FireDAC, Firebird, ACBr |
+| **[ConferirArquivo](https://github.com/IgorNayran/ConferirArquivo-Showcase)** | Plataforma para sincronização de documentos fiscais, automação contábil, relatórios e integrações entre agentes locais e serviços centralizados. | Delphi, Go, chi, pgx, PostgreSQL, REST API |
 
-> Os códigos-fonte principais permanecem privados. Os cards acima levam às vitrines públicas dos projetos.  
-> *The main source repositories remain private. The cards above open the public project showcases.*
+> Os códigos-fonte principais permanecem privados. Os links acima levam às vitrines públicas dos projetos.  
+> *The main source repositories remain private. The links above open the public project showcases.*
 
-<img src="assets/section-divider.svg" width="100%" alt="section divider" />
+---
 
-## Tech Galaxy
+## Tecnologias / Technologies
 
-<div align="center">
-<img src="assets/tech-constellation.svg" width="100%" alt="Technology constellation" />
-</div>
-
-### Aplicações / Applications
+### Aplicações e frontend
 
 ![Delphi](https://img.shields.io/badge/Delphi-E62431?style=for-the-badge&logo=delphi&logoColor=white)
 ![Object Pascal](https://img.shields.io/badge/Object_Pascal-3776AB?style=for-the-badge)
@@ -72,7 +65,7 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
-### Backend, dados e infraestrutura / Backend, data & infrastructure
+### Backend, dados e infraestrutura
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -81,20 +74,20 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 ![Firebird](https://img.shields.io/badge/Firebird-EF3B2D?style=for-the-badge&logo=firebird&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![NextAuth](https://img.shields.io/badge/NextAuth-000000?style=for-the-badge&logo=auth0&logoColor=white)
-![FireDAC](https://img.shields.io/badge/FireDAC-Data_Access-1565C0?style=for-the-badge)
-![dbExpress](https://img.shields.io/badge/dbExpress-Legacy_Data_Access-475569?style=for-the-badge)
+![FireDAC](https://img.shields.io/badge/FireDAC-Data_Access-blue?style=for-the-badge)
+![dbExpress](https://img.shields.io/badge/dbExpress-Legacy_Data_Access-lightgrey?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=for-the-badge&logo=caddy&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### Fiscal, pagamentos e integrações / Fiscal, payments & integrations
+### Fiscal, pagamentos e integrações
 
 ![ACBr](https://img.shields.io/badge/ACBr-Fiscal-2E7D32?style=for-the-badge)
 ![NF-e](https://img.shields.io/badge/NF--e-Modelo_55-2E7D32?style=for-the-badge)
 ![NFC-e](https://img.shields.io/badge/NFC--e-Modelo_65-388E3C?style=for-the-badge)
 ![CT-e](https://img.shields.io/badge/CT--e-Fiscal-1565C0?style=for-the-badge)
-![XML](https://img.shields.io/badge/XML-Documentos-C2410C?style=for-the-badge)
+![XML](https://img.shields.io/badge/XML-Documentos-orange?style=for-the-badge)
 ![REST API](https://img.shields.io/badge/REST-API-005571?style=for-the-badge)
 ![JWT](https://img.shields.io/badge/JWT-Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![SMTP](https://img.shields.io/badge/SMTP-Email-6D4C41?style=for-the-badge)
@@ -102,28 +95,17 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 ![SUNMI](https://img.shields.io/badge/SUNMI-Printing-FF6A00?style=for-the-badge)
 ![Mercado Pago](https://img.shields.io/badge/Mercado_Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white)
 
-<img src="assets/section-divider.svg" width="100%" alt="section divider" />
+---
 
-## Engineering Focus
-
-<img src="assets/engineering-focus.svg" width="100%" alt="Engineering focus" />
-
-**Produto:** ERP, POS, mobile, PWA, relatórios e fluxos operacionais.  
-**Integração:** REST APIs, pagamentos, fiscal brasileiro, XML, hardware Android e autenticação.  
-**Entrega:** Docker, Linux, Caddy, Git, deploy, logs, observabilidade e automação.
-
-*Product engineering, integrations and production delivery — from desktop and mobile clients to APIs, databases and deployment.*
-
-<img src="assets/section-divider.svg" width="100%" alt="section divider" />
-
-<div align="center">
-
-### Áreas de atuação / Focus areas
+## Áreas de atuação / Focus areas
 
 `ERP` · `PDV / POS` · `Sistemas comerciais` · `Mobile` · `REST APIs` · `Integrações` · `Automação` · `Fiscal` · `Pagamentos` · `Relatórios` · `Deploy`
 
-<br/>
+---
 
-<img src="assets/cosmic-footer.svg" width="100%" alt="Building software for real-world operations" />
+<div align="center">
+
+### Construindo produtos, não apenas projetos.
+*Building products, not just projects.*
 
 </div>
