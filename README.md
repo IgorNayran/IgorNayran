@@ -34,13 +34,13 @@ Gosto de transformar processos complexos em produtos mais simples, seguros e uti
 
 | Projeto | O que estou construindo | Stack principal |
 |---|---|---|
-| **MenuFaz** | Plataforma comercial para delivery, balcão, mesas, comandas, relatórios, financeiro, impressão e integrações operacionais. | React, Node.js, PostgreSQL, Docker |
-| **FichaMovel** | Aplicativo Android/POS para operação em dispositivos móveis e integração com o ecossistema MenuFaz e pagamentos. | Flutter, Dart, Android |
-| **BarberShop** | Plataforma web/PWA para barbearias, com experiência mobile e fluxo de agendamentos. | Next.js, TypeScript, PWA |
-| **RastreadorNotas** | Aplicação desktop voltada a rotinas fiscais, NF-e e processamento de documentos/XML. | Delphi, Pascal |
+| **[MenuFaz](https://github.com/IgorNayran/MenuFaz-Showcase)** | Plataforma comercial para delivery, balcão, mesas, comandas, relatórios, financeiro, impressão e integrações operacionais. | React, Node.js, PostgreSQL, Docker |
+| **[FichaMovel](https://github.com/IgorNayran/FichaMovel-Showcase)** | Aplicativo Android/POS para operação em dispositivos móveis e integração com o ecossistema MenuFaz e pagamentos. | Flutter, Dart, Android, Kotlin |
+| **[BarberShop](https://github.com/IgorNayran/BarberShop-Showcase)** | Plataforma web/PWA para barbearias, com experiência mobile, agendamentos, pagamentos e assinaturas. | Next.js, TypeScript, PostgreSQL, Prisma |
+| **[RastreadorNotas](https://github.com/IgorNayran/RastreadorNotas-Showcase)** | Aplicação desktop voltada a rotinas fiscais, NF-e, CT-e, XML, estoque e custos. | Delphi, Firebird, ACBr |
 
-> Os principais produtos estão em repositórios privados enquanto seguem em desenvolvimento e operação.  
-> *The main products are kept in private repositories while they are under active development and production use.*
+> Os códigos-fonte principais permanecem privados. Os links acima levam às vitrines públicas dos projetos.  
+> *The main source repositories remain private. The links above open the public project showcases.*
 
 ---
 
