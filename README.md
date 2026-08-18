@@ -20,6 +20,7 @@
 
 <br/>
 
+[![Game](https://img.shields.io/badge/TERMINAL_GAME-111827?style=for-the-badge&logo=gnometerminal&logoColor=67e8f9)](#terminal-access-game)
 [![Projects](https://img.shields.io/badge/PROJECTS-111827?style=for-the-badge&logo=github&logoColor=67e8f9)](#projetos-em-destaque--featured-projects)
 [![Tech](https://img.shields.io/badge/TECH_GALAXY-111827?style=for-the-badge&logo=stackshare&logoColor=67e8f9)](#tech-galaxy)
 [![Focus](https://img.shields.io/badge/ENGINEERING_FOCUS-111827?style=for-the-badge&logo=target&logoColor=a78bfa)](#engineering-focus)
@@ -51,6 +52,111 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
 
+## Terminal Access Game
+
+<div align="center">
+<img src="assets/terminal-game.svg" width="100%" alt="Terminal Access Game" />
+</div>
+
+> **Missão:** atravesse três nós do sistema e libere o acesso.  
+> *Mission: solve three system nodes and unlock access.*
+
+<details open>
+<summary><strong>▶ START GAME // iniciar desafio</strong></summary>
+<br/>
+
+### NODE 01 — API GATEWAY
+
+O cliente envia a mesma requisição de pagamento duas vezes por falha de rede. Qual estratégia evita cobrança duplicada?
+
+<details>
+<summary><code>[ A ] Confiar apenas no timestamp do cliente</code></summary>
+<br/>
+
+**ACCESS DENIED.** O relógio do cliente não garante unicidade nem processamento único.
+
+`status: FAIL` · tente outra rota.
+
+</details>
+
+<details>
+<summary><code>[ B ] Usar uma chave de idempotência persistida no backend</code></summary>
+<br/>
+
+**NODE 01 UNLOCKED.** A mesma operação pode ser reconhecida e reaproveitada sem executar novamente.
+
+`status: PASS` · prossiga para o Node 02 abaixo.
+
+### NODE 02 — DATABASE CORE
+
+Você precisa garantir que dados de duas empresas nunca sejam misturados em consultas de uma API multiempresa. Qual abordagem é mais segura?
+
+<details>
+<summary><code>[ A ] Receber companyId livremente do frontend e confiar nele</code></summary>
+<br/>
+
+**ACCESS DENIED.** Identificadores enviados pelo cliente precisam ser validados contra a identidade autenticada.
+
+</details>
+
+<details>
+<summary><code>[ B ] Derivar o tenant da sessão/token e aplicar o filtro também no backend</code></summary>
+<br/>
+
+**NODE 02 UNLOCKED.** O isolamento passa a fazer parte da autorização, não apenas da interface.
+
+`status: PASS` · último nó liberado.
+
+### NODE 03 — FISCAL CORE
+
+Um serviço recebe XML fiscal, gera relatórios e permite download posterior. O que deve permanecer fora de logs públicos?
+
+<details>
+<summary><code>[ A ] Tokens, credenciais, dados de clientes e conteúdo fiscal sensível</code></summary>
+<br/>
+
+## ACCESS GRANTED
+
+```text
+NODE-01  API GATEWAY       [PASS]
+NODE-02  DATABASE CORE     [PASS]
+NODE-03  FISCAL CORE       [PASS]
+
+IDENTITY: SOFTWARE BUILDER
+CLEARANCE: REAL-WORLD SYSTEMS
+STATUS: ACCESS GRANTED
+```
+
+Você chegou ao núcleo. Agora explore os projetos abaixo.
+
+*You reached the core. Continue through the projects below.*
+
+</details>
+
+<details>
+<summary><code>[ B ] Tudo, desde que o servidor esteja em produção</code></summary>
+<br/>
+
+**ACCESS DENIED.** Produção não transforma informação sensível em informação segura para log.
+
+</details>
+
+</details>
+
+<details>
+<summary><code>[ C ] Repetir a operação e corrigir manualmente depois</code></summary>
+<br/>
+
+**ACCESS DENIED.** Sistemas de pagamento precisam evitar duplicidade antes de criar inconsistência financeira.
+
+</details>
+
+</details>
+
+</details>
+
+<img src="assets/section-divider.svg" width="100%" alt="section divider" />
+
 ## Projetos em destaque / Featured projects
 
 <div align="center">
@@ -69,61 +175,51 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 <details>
 <summary><strong>🚀 MenuFaz — food service, POS & operations</strong></summary>
 <br/>
-
 Plataforma comercial para delivery, balcão, mesas, comandas, financeiro, relatórios, estoque, impressão e dispositivos.
 
 `React` · `Vite` · `JavaScript` · `Node.js` · `Express` · `PostgreSQL` · `Docker` · `Caddy`
 
 [→ Abrir showcase / Open showcase](https://github.com/IgorNayran/MenuFaz-Showcase)
-
 </details>
 
 <details>
 <summary><strong>📱 FichaMovel — Android POS & device integration</strong></summary>
 <br/>
-
 Aplicativo Android/POS com pagamentos Stone, impressão SUNMI, bridge nativa Kotlin, persistência local e integração com o ecossistema MenuFaz.
 
 `Flutter` · `Dart` · `Android` · `Kotlin` · `Hive` · `AIDL`
 
 [→ Abrir showcase / Open showcase](https://github.com/IgorNayran/FichaMovel-Showcase)
-
 </details>
 
 <details>
 <summary><strong>✂️ BarberShop — web/PWA business platform</strong></summary>
 <br/>
-
 Plataforma de agendamentos, clientes, pagamentos, assinaturas e gestão operacional, preparada para web e mobile.
 
 `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Prisma` · `NextAuth`
 
 [→ Abrir showcase / Open showcase](https://github.com/IgorNayran/BarberShop-Showcase)
-
 </details>
 
 <details>
 <summary><strong>🧾 RastreadorNotas — fiscal desktop engineering</strong></summary>
 <br/>
-
 Aplicação desktop fiscal para NF-e, CT-e, XML, estoque, custos e rotinas comerciais com ecossistema ACBr.
 
 `Delphi` · `Object Pascal` · `VCL` · `FireDAC` · `Firebird` · `ACBr`
 
 [→ Abrir showcase / Open showcase](https://github.com/IgorNayran/RastreadorNotas-Showcase)
-
 </details>
 
 <details>
 <summary><strong>🛰️ ConferirArquivo — fiscal sync & accounting automation</strong></summary>
 <br/>
-
 Sincronização de documentos fiscais, automação contábil, relatórios, downloads e integração entre agentes desktop e serviços centralizados.
 
 `Delphi` · `Go` · `chi` · `pgx` · `PostgreSQL` · `REST API`
 
 [→ Abrir showcase / Open showcase](https://github.com/IgorNayran/ConferirArquivo-Showcase)
-
 </details>
 
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
@@ -152,7 +248,6 @@ Sincronização de documentos fiscais, automação contábil, relatórios, downl
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
-
 </details>
 
 <details>
@@ -172,7 +267,6 @@ Sincronização de documentos fiscais, automação contábil, relatórios, downl
 ![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=for-the-badge&logo=caddy&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
 </details>
 
 <details>
@@ -190,7 +284,6 @@ Sincronização de documentos fiscais, automação contábil, relatórios, downl
 ![Stone](https://img.shields.io/badge/Stone-Payments-00A868?style=for-the-badge)
 ![SUNMI](https://img.shields.io/badge/SUNMI-Printing-FF6A00?style=for-the-badge)
 ![Mercado Pago](https://img.shields.io/badge/Mercado_Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white)
-
 </details>
 
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
@@ -208,7 +301,6 @@ Sincronização de documentos fiscais, automação contábil, relatórios, downl
 **Entrega:** Docker, Linux, Caddy, Git, deploy, logs, observabilidade e automação.
 
 *Product engineering, integrations and production delivery — from desktop and mobile clients to APIs, databases and deployment.*
-
 </details>
 
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
@@ -216,23 +308,19 @@ Sincronização de documentos fiscais, automação contábil, relatórios, downl
 ## Atividade / Activity
 
 <div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IgorNayran/IgorNayran/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IgorNayran/IgorNayran/output/github-contribution-grid-snake.svg" />
   <img alt="GitHub contribution animation" src="https://raw.githubusercontent.com/IgorNayran/IgorNayran/output/github-contribution-grid-snake.svg" />
 </picture>
-
 </div>
 
 <details>
 <summary><strong>✦ Sobre esta animação / About this animation</strong></summary>
 <br/>
-
 A animação usa o gráfico público de contribuições do GitHub e é regenerada automaticamente pelo próprio repositório de perfil.
 
 *The animation is generated from the public GitHub contribution grid and refreshed automatically by this profile repository.*
-
 </details>
 
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
