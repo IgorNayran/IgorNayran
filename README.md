@@ -18,6 +18,13 @@
 ![Firebird](https://img.shields.io/badge/Firebird-EF3B2D?style=flat-square&logo=firebird&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
+<br/>
+
+[![Projects](https://img.shields.io/badge/PROJECTS-111827?style=for-the-badge&logo=github&logoColor=67e8f9)](#projetos-em-destaque--featured-projects)
+[![Tech](https://img.shields.io/badge/TECH_GALAXY-111827?style=for-the-badge&logo=stackshare&logoColor=67e8f9)](#tech-galaxy)
+[![Focus](https://img.shields.io/badge/ENGINEERING_FOCUS-111827?style=for-the-badge&logo=target&logoColor=a78bfa)](#engineering-focus)
+[![Activity](https://img.shields.io/badge/ACTIVITY-111827?style=for-the-badge&logo=githubactions&logoColor=67e8f9)](#atividade--activity)
+
 </div>
 
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
@@ -29,6 +36,18 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 *Developer focused on software that solves real operational problems — business systems, POS, ERP, mobile, integrations, APIs, automation and fiscal workflows.*
 
 <img src="assets/pillars.svg" width="100%" alt="Build Connect Operate" />
+
+<details>
+<summary><strong>✦ Como eu penso produto / How I approach product engineering</strong></summary>
+<br/>
+
+- **Build:** transformar necessidade operacional em software utilizável no dia a dia.
+- **Connect:** integrar desktop, mobile, APIs, pagamentos, fiscal e dispositivos.
+- **Operate:** pensar também em banco, deploy, segurança, logs e continuidade operacional.
+
+*I focus on the whole product path: building the application, connecting systems and keeping the solution reliable in real operation.*
+
+</details>
 
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
 
@@ -47,6 +66,66 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 > Os códigos-fonte principais permanecem privados. Os cards acima levam às vitrines públicas dos projetos.  
 > *The main source repositories remain private. The cards above open the public project showcases.*
 
+<details>
+<summary><strong>🚀 MenuFaz — food service, POS & operations</strong></summary>
+<br/>
+
+Plataforma comercial para delivery, balcão, mesas, comandas, financeiro, relatórios, estoque, impressão e dispositivos.
+
+`React` · `Vite` · `JavaScript` · `Node.js` · `Express` · `PostgreSQL` · `Docker` · `Caddy`
+
+[→ Abrir showcase / Open showcase](https://github.com/IgorNayran/MenuFaz-Showcase)
+
+</details>
+
+<details>
+<summary><strong>📱 FichaMovel — Android POS & device integration</strong></summary>
+<br/>
+
+Aplicativo Android/POS com pagamentos Stone, impressão SUNMI, bridge nativa Kotlin, persistência local e integração com o ecossistema MenuFaz.
+
+`Flutter` · `Dart` · `Android` · `Kotlin` · `Hive` · `AIDL`
+
+[→ Abrir showcase / Open showcase](https://github.com/IgorNayran/FichaMovel-Showcase)
+
+</details>
+
+<details>
+<summary><strong>✂️ BarberShop — web/PWA business platform</strong></summary>
+<br/>
+
+Plataforma de agendamentos, clientes, pagamentos, assinaturas e gestão operacional, preparada para web e mobile.
+
+`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Prisma` · `NextAuth`
+
+[→ Abrir showcase / Open showcase](https://github.com/IgorNayran/BarberShop-Showcase)
+
+</details>
+
+<details>
+<summary><strong>🧾 RastreadorNotas — fiscal desktop engineering</strong></summary>
+<br/>
+
+Aplicação desktop fiscal para NF-e, CT-e, XML, estoque, custos e rotinas comerciais com ecossistema ACBr.
+
+`Delphi` · `Object Pascal` · `VCL` · `FireDAC` · `Firebird` · `ACBr`
+
+[→ Abrir showcase / Open showcase](https://github.com/IgorNayran/RastreadorNotas-Showcase)
+
+</details>
+
+<details>
+<summary><strong>🛰️ ConferirArquivo — fiscal sync & accounting automation</strong></summary>
+<br/>
+
+Sincronização de documentos fiscais, automação contábil, relatórios, downloads e integração entre agentes desktop e serviços centralizados.
+
+`Delphi` · `Go` · `chi` · `pgx` · `PostgreSQL` · `REST API`
+
+[→ Abrir showcase / Open showcase](https://github.com/IgorNayran/ConferirArquivo-Showcase)
+
+</details>
+
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
 
 ## Tech Galaxy
@@ -55,7 +134,9 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 <img src="assets/tech-constellation.svg" width="100%" alt="Technology constellation" />
 </div>
 
-### Aplicações / Applications
+<details open>
+<summary><strong>🖥️ Aplicações / Applications</strong></summary>
+<br/>
 
 ![Delphi](https://img.shields.io/badge/Delphi-E62431?style=for-the-badge&logo=delphi&logoColor=white)
 ![Object Pascal](https://img.shields.io/badge/Object_Pascal-3776AB?style=for-the-badge)
@@ -72,7 +153,11 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
-### Backend, dados e infraestrutura / Backend, data & infrastructure
+</details>
+
+<details>
+<summary><strong>⚙️ Backend, dados e infraestrutura / Backend, data & infrastructure</strong></summary>
+<br/>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -88,7 +173,11 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### Fiscal, pagamentos e integrações / Fiscal, payments & integrations
+</details>
+
+<details>
+<summary><strong>🧩 Fiscal, pagamentos e integrações / Fiscal, payments & integrations</strong></summary>
+<br/>
 
 ![ACBr](https://img.shields.io/badge/ACBr-Fiscal-2E7D32?style=for-the-badge)
 ![NF-e](https://img.shields.io/badge/NF--e-Modelo_55-2E7D32?style=for-the-badge)
@@ -102,17 +191,49 @@ Desenvolvedor focado em **software que resolve problemas reais de operação** �
 ![SUNMI](https://img.shields.io/badge/SUNMI-Printing-FF6A00?style=for-the-badge)
 ![Mercado Pago](https://img.shields.io/badge/Mercado_Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white)
 
+</details>
+
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
 
 ## Engineering Focus
 
 <img src="assets/engineering-focus.svg" width="100%" alt="Engineering focus" />
 
+<details open>
+<summary><strong>🧠 O que eu costumo resolver / What I usually solve</strong></summary>
+<br/>
+
 **Produto:** ERP, POS, mobile, PWA, relatórios e fluxos operacionais.  
 **Integração:** REST APIs, pagamentos, fiscal brasileiro, XML, hardware Android e autenticação.  
 **Entrega:** Docker, Linux, Caddy, Git, deploy, logs, observabilidade e automação.
 
 *Product engineering, integrations and production delivery — from desktop and mobile clients to APIs, databases and deployment.*
+
+</details>
+
+<img src="assets/section-divider.svg" width="100%" alt="section divider" />
+
+## Atividade / Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IgorNayran/IgorNayran/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IgorNayran/IgorNayran/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution animation" src="https://raw.githubusercontent.com/IgorNayran/IgorNayran/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+<details>
+<summary><strong>✦ Sobre esta animação / About this animation</strong></summary>
+<br/>
+
+A animação usa o gráfico público de contribuições do GitHub e é regenerada automaticamente pelo próprio repositório de perfil.
+
+*The animation is generated from the public GitHub contribution grid and refreshed automatically by this profile repository.*
+
+</details>
 
 <img src="assets/section-divider.svg" width="100%" alt="section divider" />
 
