@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#020617"/><stop offset="0.55" stop-color="#07111f"/><stop offset="1" stop-color="#09031a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="58%">
+      <stop stop-color="#06b6d4" stop-opacity="0.13"/><stop offset="0.55" stop-color="#8b5cf6" stop-opacity="0.07"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="330" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="20" fill="url(#glow)"/>
+  <rect x="68" y="48" width="1064" height="232" rx="14" fill="#030712" stroke="#334155"/>
+  <rect x="68" y="48" width="1064" height="36" rx="14" fill="#0f172a"/>
+  <circle cx="92" cy="66" r="5" fill="#ef4444"/><circle cx="110" cy="66" r="5" fill="#f59e0b"/><circle cx="128" cy="66" r="5" fill="#22c55e"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#94a3b8">NODE-01 // TERMINAL ACCESS</text>
+  <g font-family="Consolas, monospace">
+    <text x="102" y="124" font-size="19" fill="#67e8f9" filter="url(#soft)">&gt; boot profile://igor-nayran</text>
+    <text x="102" y="158" font-size="16" fill="#94a3b8">loading engineering modules ................. OK</text>
+    <text x="102" y="190" font-size="16" fill="#94a3b8">loading project graph ...................... OK</text>
+    <text x="102" y="222" font-size="16" fill="#94a3b8">security challenge ........................ ARMED</text>
+    <text x="102" y="254" font-size="17" fill="#a78bfa">STATUS: ACCESS LOCKED // solve 3 nodes to enter</text>
+  </g>
+  <g fill="#e2e8f0">
+    <circle cx="38" cy="40" r="1"/><circle cx="1164" cy="34" r="1"/><circle cx="1090" cy="302" r="1"/><circle cx="152" cy="302" r="1"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="328" rx="20" fill="none" stroke="#334155" stroke-opacity="0.5"/>
+</svg>
