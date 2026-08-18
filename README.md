@@ -38,6 +38,7 @@ Gosto de transformar processos complexos em produtos mais simples, seguros e uti
 | **[FichaMovel](https://github.com/IgorNayran/FichaMovel-Showcase)** | Aplicativo Android/POS para operação em dispositivos móveis e integração com o ecossistema MenuFaz e pagamentos. | Flutter, Dart, Android, Kotlin |
 | **[BarberShop](https://github.com/IgorNayran/BarberShop-Showcase)** | Plataforma web/PWA para barbearias, com experiência mobile, agendamentos, pagamentos e assinaturas. | Next.js, TypeScript, PostgreSQL, Prisma |
 | **[RastreadorNotas](https://github.com/IgorNayran/RastreadorNotas-Showcase)** | Aplicação desktop voltada a rotinas fiscais, NF-e, CT-e, XML, estoque e custos. | Delphi, Firebird, ACBr |
+| **[ConferirArquivo](https://github.com/IgorNayran/ConferirArquivo-Showcase)** | Plataforma para sincronização de documentos fiscais, automação contábil, relatórios e integrações entre agentes locais e serviços centralizados. | Delphi, Go, PostgreSQL, REST API |
 
 > Os códigos-fonte principais permanecem privados. Os links acima levam às vitrines públicas dos projetos.  
 > *The main source repositories remain private. The links above open the public project showcases.*
